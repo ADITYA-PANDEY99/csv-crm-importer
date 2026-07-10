@@ -2,7 +2,7 @@
  * CRM Records feature — local TypeScript types.
  * Extends shared CrmRecord with display-only concerns.
  */
-import type { CrmRecord } from "@csv-crm/shared";
+import type { CrmRecord } from "@/shared";
 
 /** Column IDs used with TanStack Table — kept in sync with CrmRecord keys */
 export type CrmColumnId = keyof Pick<

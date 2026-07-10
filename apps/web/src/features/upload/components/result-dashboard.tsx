@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import type { CrmRecord, SkippedRecord, MappingInsight, ImportJob } from "@csv-crm/shared";
+import type { CrmRecord, SkippedRecord, MappingInsight, ImportJob } from "@/shared";
 import { useDebounce } from "@/hooks/use-debounce";
 import { cn } from "@/lib/utils";
 

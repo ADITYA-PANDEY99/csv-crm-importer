@@ -4,9 +4,6 @@ const nextConfig: NextConfig = {
   // ── Strict mode ───────────────────────────────────────────────────────────
   reactStrictMode: true,
 
-  // ── Turborepo: transpile the shared package ───────────────────────────────
-  transpilePackages: ["@csv-crm/shared"],
-
   // ── Security headers ──────────────────────────────────────────────────────
   async headers() {
     return [

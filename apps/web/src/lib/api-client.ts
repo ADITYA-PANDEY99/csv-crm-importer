@@ -4,7 +4,7 @@ import type {
   ImportJob,
   UploadResponse,
   CrmRecordsResponse,
-} from "@csv-crm/shared";
+} from "@/shared";
 import { clientEnv } from "@/config/env";
 
 // ─── API Client Error ─────────────────────────────────────────────────────────

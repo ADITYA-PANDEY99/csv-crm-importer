@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { LoadingSpinner } from "@/components/shared/loading-spinner";
 import { ResultDashboard } from "@/features/upload/components/result-dashboard";
 import { toast } from "sonner";
-import type { ImportJob, CrmRecord, SkippedRecord, MappingInsight } from "@csv-crm/shared";
+import type { ImportJob, CrmRecord, SkippedRecord, MappingInsight } from "@/shared";
 
 interface ImportDetailPageProps {
   params: Promise<{ id: string }>;

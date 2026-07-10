@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @csv-crm/shared build && pnpm --filter @csv-crm/web build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "pnpm install",
+  "framework": "nextjs"
+}

@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { v4 as uuidv4 } from "uuid";
-import type { CrmRecord, RawCsvRow } from "@csv-crm/shared";
-import { AiCrmResponseBatchSchema } from "@csv-crm/shared";
+import type { CrmRecord, RawCsvRow } from "../../shared";
+import { AiCrmResponseBatchSchema } from "../../shared";
 import { env } from "../../config/env";
 import { logger } from "../../lib/logger";
 import { LLMProviderError } from "../../lib/errors";

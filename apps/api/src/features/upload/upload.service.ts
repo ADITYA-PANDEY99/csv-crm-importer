@@ -1,4 +1,4 @@
-import type { ImportJob, CrmRecord, SkippedRecord, MappingInsight, RawCsvRow } from "@csv-crm/shared";
+import type { ImportJob, CrmRecord, SkippedRecord, MappingInsight, RawCsvRow } from "../../shared";
 import { v4 as uuidv4 } from "uuid";
 import { logger } from "../../lib/logger";
 import { getCrmRecordsStore, setCrmRecordsStore } from "../crm-records/crm-records.service";

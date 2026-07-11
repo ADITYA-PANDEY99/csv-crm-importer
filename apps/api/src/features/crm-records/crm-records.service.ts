@@ -1,4 +1,4 @@
-import type { CrmRecord, SkippedRecord, MappingInsight } from "@csv-crm/shared";
+import type { CrmRecord, SkippedRecord, MappingInsight } from "../../shared";
 import { logger } from "../../lib/logger";
 
 export interface PaginatedCrmRecords {

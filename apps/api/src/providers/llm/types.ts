@@ -1,5 +1,5 @@
-import type { RawCsvRow } from "@csv-crm/shared";
-import type { CrmRecord } from "@csv-crm/shared";
+import type { RawCsvRow } from "../../shared";
+import type { CrmRecord } from "../../shared";
 
 /**
  * The contract every LLM provider must fulfill.

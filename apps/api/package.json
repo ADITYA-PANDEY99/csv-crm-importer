@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "description": "Node.js / Express backend for the AI-powered CSV CRM Importer",
-  "main": "dist/server.js",
+  "main": "dist/apps/api/src/server.js",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "dev": "tsx watch src/server.ts",
-    "start": "node dist/server.js",
+    "start": "node dist/apps/api/src/server.js",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
